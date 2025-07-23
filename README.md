@@ -1,27 +1,80 @@
-# Next.js + Tailwind CSS Example
+# 🔍 Google Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A fully responsive and functional **Google Search clone** built with **Next.js 13+**, **Tailwind CSS**, and the **Google Programmable Search API**. It replicates the core functionality and design of Google Search — including web search results, pagination, and image search.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 🚀 Features
 
-## How to use
+- ✅ Google-style search results using the **Google Custom Search API**
+- 🖼️ Image Search (toggle via tabs)
+- 📱 Fully responsive UI (Mobile & Desktop)
+- 🌐 Clean Google-like interface
+- ⚡ Built with Next.js App Router and Tailwind CSS
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+---
+
+## 🛠️ Tech Stack
+
+| Technology    | Purpose                      |
+|---------------|------------------------------|
+| Next.js 13+   | Fullstack React Framework    |
+| Tailwind CSS  | Utility-first styling        |
+| Google API    | Search data and images       |
+| Vercel        | Hosting & deployment         |
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+git clone https://github.com/your-username/google-clone.git
+cd google-clone
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Set up environment variables
+Create a .env.local file at the root with:
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+env
+Copy
+Edit
+API_KEY=your_google_api_key
+CONTEXT_KEY=your_custom_search_engine_id
+You can get both from the Google Programmable Search Engine.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+4. Run the development server
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:3000 to view it in the browser.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+📁 Folder Structure (simplified)
+rust
+Copy
+Edit
+/app             -> Next.js App Router pages (search, images)
+/components      -> Reusable components (Header, Footer, etc)
+/public          -> Static files & icons
+/styles          -> Tailwind CSS config
+.env.local       -> API keys
+🌍 Deployment
+Deployed live on Vercel. You can deploy it instantly using:
+
+
+
+🙋‍♂️ Author
+Ajinkya Suryawanshi
+Feel free to connect with me on LinkedIn or GitHub
+
+📄 License
+This project is open-source and available under the MIT License.
+
+
+---
